@@ -1,0 +1,16 @@
+- id: home_search
+  click:
+- id: search_input_text
+  input: pdd
+#- xpath: '//*[@text="拼多多"]'
+#- xpath: '//*[(@text="加自选")]'
+#- xpath: "//*[@text='拼多多']"
+- id: current_price
+  len:
+- equal_to : 1
+- id: current_price
+  get: 'package'
+- equal_to : "com.hexin.plat.android"
+
+
+
